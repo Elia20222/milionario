@@ -1,0 +1,11 @@
+<!--il componente accede da aiutidacasa in schermata browser -->
+<div *ngFor="let aiuti of personacheAiutadaCasa">
+    
+        <button class="btn btn-primary aiutidacasa" (click)="aiutiDaCasa()">
+            <i class="bi bi-telephone"></i>
+            <!-- passa i dati dall'app component ad aiutida casa per mostrare le dicciture delle persone disponibili che aiutano -->
+            <!--<p>{{personacheAiutadaCasa[0].nome}}</p>-->
+            <!--<p [ngStyle]="{color:personacheAiutadaCasa.color}">{{personacheAiutadaCasa.nome}} {{personacheAiutadaCasa.cognome}}</p> -->
+        </button>
+    
+</div>
